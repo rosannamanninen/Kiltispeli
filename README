@@ -1,0 +1,36 @@
+
+
+Kiltispeli
+
+## Esittely
+
+    Kiltispeli on strategiapeli, jossa pelaajan tehtävä on voittaa kiltiksellä lymyävä hirviö
+    samalla pitäen kiltalaisensa ja kiltiksensä kunnossa.
+    Pelistä löytyy erilaisia toimintoja, joilla pelaaja voi vaikuttaa kiltiksen tapahtumiin.
+
+## Tiedosto- ja kansiorakenne
+
+    main.py, pelin ajamiseen tarkoitettu tiedosto
+
+    visualisointi.py on pelin graafisen käyttöliittymän pohja
+    Kiltis3.jpg on graafisen käyttöliittymän taustakuva
+
+    kiltis.py, on itse pelin ja sen toimintojen luokka
+    hirviö.py, kiltalainen.py pelin hahmoihin liittyviä luokkia
+
+    test.py testikoodi, jossa ei tällä hetkellä ole kylläkään mitään
+
+
+## Asennusohje
+
+    Ohjelman käyttö vaatii PyQt5:n asennuksen, jota ei ilmeisesti tarvinnut ohjeistaa.
+
+## Käyttöohje
+
+    Ohjelma käynnistetään ajamalla tiedosto main.py. Peli alkaa kun painaa Uusi peli -nappia.
+    Pelin pelaamisen löytyvät myös  napin ”Ohje” takaa. Myös pelin lore eli taustatarina on
+    luettavissa. Pelistä poistutaan napin ”Poistu” kautta tai ihan vain perinteisesti rastista.
+
+    Kiltiksellä voi: Lukea Snapsia, keittää kahvia, harjoittaa mindfullnesia, houkutella
+    lisää kiltalaisia ja käydä kaupassa. Jokaisella toiminnolla on useita eri lopputuloksia,
+    esim kaupasta voidaan tuoda S’napseja tai kahvia, vain jompaakumpaa tai ei kumpaakaan
